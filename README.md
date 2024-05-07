@@ -89,3 +89,9 @@ json.dump(dict1, out_file, indent = 4, sort_keys = False)
 out_file.close()
 
 ```
+
+## Note
+
+- Ensure that the file paths provided in the script are correct and accessible.
+- Review the script and modify it as needed for your specific use case.
+- Make sure to handle large files appropriately to avoid memory issues.
