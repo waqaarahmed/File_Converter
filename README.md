@@ -36,3 +36,17 @@ to_csv = pd.read_json("intents.json")
 # Convert to CSV file
 to_csv.to_csv("intents.csv")
 ```
+
+### CSV to JSON Conversion
+
+Converts data from CSV format to JSON format.
+
+```
+import pandas as pd
+
+# Read CSV file
+from_csv = pd.read_csv("intents.csv")
+
+# Convert to JSON file
+from_csv.to_json("converted_from_csv.json")
+```
