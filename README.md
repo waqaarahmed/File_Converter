@@ -20,3 +20,19 @@ You can install the required dependencies using pip:
 ```bash
 pip install pandas
 ```
+
+## Functionality
+
+### JSON to CSV Conversion
+
+Converts data from JSON format to CSV format.
+
+```
+import pandas as pd
+
+# Read JSON file
+to_csv = pd.read_json("intents.json")
+
+# Convert to CSV file
+to_csv.to_csv("intents.csv")
+```
