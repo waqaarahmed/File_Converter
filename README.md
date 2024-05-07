@@ -50,3 +50,20 @@ from_csv = pd.read_csv("intents.csv")
 # Convert to JSON file
 from_csv.to_json("converted_from_csv.json")
 ```
+
+### JSON to Text File Conversion
+
+Converts data from JSON format to a text file.
+
+```
+import json
+
+# Read JSON file
+with open('intents.json') as file:
+    data = json.load(file)
+
+# Convert to text file
+js_file = json.dumps(data)
+with open("intents.txt", "w") as f:
+    f.write(js_file)
+```
